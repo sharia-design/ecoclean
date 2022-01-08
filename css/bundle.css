@@ -1541,6 +1541,43 @@ body.page--companies .companies {
   .home-about-title {
     margin-top: 22px;
   }
+  .modal-book {
+    width: calc(100% - 22px);
+  }
+  .tools .wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+  .contact-container,
+  .about-container,
+  .page-companies-container,
+  .corporate-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contact-meta-info,
+  .contact-form-container,
+  .about-container > div,
+  .page-companies-container > div,
+  .page-service__title {
+    width: 100%;
+  }
+  .grid--2 {
+    grid-template-columns: 1fr;
+  }
+  .page-services-img-container {
+    margin-top: 22px;
+  }
+  .contact-meta-info {
+    margin-top: 29px;
+    text-align: left;
+  }
+  
+
+
+
+
   .sharia {
     margin-top: 11px;
   }
