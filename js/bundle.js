@@ -126,3 +126,15 @@ function modalResponse() {
     }, 4000);
 }
 
+
+// --- Mobile Menu --- 
+const burger = document.querySelector('.burger')
+const burgerClose = document.querySelector('.menu-close')
+const mobileMenu = document.querySelector('.mobile-menu')
+
+burger.addEventListener('click', function() {
+    mobileMenu.classList.add('show')
+})
+burgerClose.addEventListener('click', function() {
+    mobileMenu.classList.remove('show')
+})
